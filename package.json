@@ -1,0 +1,32 @@
+{
+  "name": "front-doc-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bisheng start -c ./site/bisheng.config.js",
+    "site": "bisheng build -c ./site/bisheng.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^2.12.7",
+    "antd-css-rewrite": "^1.2.0",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "react-router": "^2.8.1",
+    "jsonml-to-react-component": "^0.2.6"
+  },
+  "devDependencies": {
+    "babel-plugin-antd": "^0.5.1",
+    "bisheng": "^0.12.0",
+    "bisheng-plugin-antd": "~0.2.0",
+    "bisheng-plugin-description": "^0.1.1",
+    "bisheng-plugin-react": "^0.2.0",
+    "bisheng-plugin-toc": "^0.3.0",
+    "dora-plugin-upload": "^0.3.1",
+    "dora-plugin-upload": "^0.3.1"
+  }
+}
